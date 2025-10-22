@@ -6,7 +6,9 @@ Este projeto consiste na criação de uma **Landing Page** para promover um **se
 O site apresenta informações sobre um servidor escolhido pela dupla, incluindo biografia, formação, disciplinas (quando aplicável) e meios de contato.
 
 ---
-
+ | Projeto|Link do Projeto |
+ | ------------- | ---------------------------------------------------------------------------------------------------------------- |
+ |Landing Page                |[Projeto](https://herbsterdev.github.io/Landing-Page-WEB-I---HTML/)
 ## 🧩 Estrutura do Projeto
 
 ```
