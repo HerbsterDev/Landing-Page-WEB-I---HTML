@@ -94,7 +94,9 @@ Regras de estilização exigidas:
 
 ## 👩‍💻 Autores
 Projeto desenvolvido por:  
-**Arthur Herbster** e **Alisson Costa**  
+ - [Arthur Herbster Fernandes Vogel](https://github.com/HerbsterDev)  
+- [Alisson Sousa Costa](https://github.com/AlissonSco)  
+
 Curso: Técnico em Informática — IFCE Campus Maranguape  
 Disciplina: Desenvolvimento Web I  
 Professor: **Thomaz Maia De Almeida**
