@@ -1,121 +1,94 @@
 <!DOCTYPE html>
 <head>
   <title>Disciplinas - Thomaz Maia de Almeida</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+  <body>
+    <header id="headerP">
+      <nav>
+        <a href="../index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="formacao.html">Formação</a>
+        <a href="disciplinas.html">Disciplinas</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
 
-  <header id="headerP">
-    <h1>Thomaz Maia de Almeida</h1>
-    <nav>
-      <a href="../index.html">Início</a>
-      <a href="sobre.html">Sobre</a>
-      <a href="formacao.html">Formação</a>
-      <a href="disciplinas.html">Disciplinas</a>
-      <a href="contato.html">Contato</a>
-    </nav>
-  </header>
+    <h1 id="thomazTitulo">Thomaz Maia de Almeida</h1>
 
-  <section id="principal">
-    <article>
-      <h2>Disciplinas</h2>
+  <section class="principal3">
+  <article>
+    <h2 id="tituloDD">Disciplinas</h2>
 
-      <p><b>Disciplinas Lecionadas:</b></p>
+    <p id="tituloD"><b>Disciplinas Lecionadas:</b></p>
 
+      <div class="img01">
       <div class="disciplinas">
-        <div class="disciplina">
-          <img src="../img/PEST.jpg" alt="Programação Estruturada" width="150">
-          <h4>Programação Estruturada</h4>
-          <p>Ensina lógica de programação, estruturas de controle, funções e boas práticas de codificação em Python.</p>
-        </div>
-
-        <div class="disciplina">
-          <img src="../img/WEB I.jpg" alt="Desenvolvimento Web I" width="150">
-          <h4>Desenvolvimento Web I</h4>
-          <p>Introdução ao desenvolvimento web, incluindo HTML, CSS e fundamentos do design de páginas web.</p>
-        </div>
-
-        <div class="disciplina">
-          <img src="../img/WEB II.jpg" alt="Desenvolvimento Web II" width="150">
-          <h4>Desenvolvimento Web II</h4>
-          <p>Avança nos conceitos de web, com JavaScript, frameworks, integração com back-end e boas práticas de programação web.</p>
-        </div>
+      <div class="disciplina-a1">
+        <img class="imgDisciplinas" src="../img/PEST.jpg" alt="Programação Estruturada" width="350">
+        <h4 class="dici">Programação Estruturada</h4>
+        <p>Lógica de programação, estruturas de controle, funções e boas práticas de codificação em Python.</p>
+      </div>
       </div>
 
-      <h3>📅 Horário das Aulas</h3>
-<table border="1" cellpadding="8" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Dias da Semana</th>
-      <th>Horário</th>
-      <th>Turno</th>
-      <th>Turma / Disciplina</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Terça-feira -->
-    <tr>
-      <td>Terça-feira</td>
-      <td>13:00 - 15:00</td>
-      <td>AB - Tarde</td>
-      <td>Desenvolvimento Web I</td>
-    </tr>
-    <tr>
-      <td>Terça-feira</td>
-      <td>15:10 - 17:10</td>
-      <td>CD - Tarde</td>
-      <td>Programação Estruturada</td>
-    </tr>
+      <div class="img02">
+      <div class="disciplina-a2">
+        <img class="imgDisciplinas" src="../img/WEB I.jpg" alt="Desenvolvimento Web I" width="350">
+        <h4 class="dici">Desenvolvimento Web I</h4>
+        <p>Introdução ao desenvolvimento web com HTML, CSS e fundamentos de design de páginas.</p>
+      </div>
+      </div>
 
-    <!-- Quarta-feira -->
-    <tr>
-      <td>Quarta-feira</td>
-      <td>09:40 - 11:40</td>
-      <td>CD - Manhã</td>
-      <td>Desenvolvimento Web II</td>
-    </tr>
-    <tr>
-      <td>Quarta-feira</td>
-      <td>15:10 - 17:10</td>
-      <td>CD - Tarde</td>
-      <td>Programação Estruturada</td>
-    </tr>
+      <div class="img03">
+      <div class="disciplina-a3">
+        <img class="imgDisciplinas" src="../img/WEB II.jpg" alt="Desenvolvimento Web II" width="350">
+        <h4 class="dici">Desenvolvimento Web II</h4>
+        <p>Avanço em JavaScript, frameworks, integração com back-end e boas práticas de programação web.</p>
+      </div>
+      </div>
+    </div>
 
-    <!-- Quinta-feira -->
-    <tr>
-      <td>Quinta-feira</td>
-      <td>09:40 - 11:40</td>
-      <td>CD - Manhã</td>
-      <td>Desenvolvimento Web II</td>
-    </tr>
-    <tr>
-      <td>Quinta-feira</td>
-      <td>13:00 - 15:00</td>
-      <td>AB - Tarde</td>
-      <td>Desenvolvimento Web I</td>
-    </tr>
-  </tbody>
-</table>
+    <div id="horarioDD">
+    <h3 class="dici">Horário das Aulas</h3>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Dia</th>
+          <th>Horário</th>
+          <th>Turno</th>
+          <th>Turma / Disciplina</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Terça-feira</td><td>13:00 - 15:00</td><td>AB - Tarde</td><td>Desenvolvimento Web I</td></tr>
+        <tr><td>Terça-feira</td><td>15:10 - 17:10</td><td>CD - Tarde</td><td>Programação Estruturada</td></tr>
+        <tr><td>Quarta-feira</td><td>09:40 - 11:40</td><td>CD - Manhã</td><td>Desenvolvimento Web II</td></tr>
+        <tr><td>Quarta-feira</td><td>15:10 - 17:10</td><td>CD - Tarde</td><td>Programação Estruturada</td></tr>
+        <tr><td>Quinta-feira</td><td>09:40 - 11:40</td><td>CD - Manhã</td><td>Desenvolvimento Web II</td></tr>
+        <tr><td>Quinta-feira</td><td>13:00 - 15:00</td><td>AB - Tarde</td><td>Desenvolvimento Web I</td></tr>
+      </tbody>
+    </table>
 
+    <h3 class="dici">Disciplina Favorita</h3>
+    <p><b>Programação Estruturada</b> — Essencial para a base lógica e desenvolvimento em programação, abordando algoritmos, estruturas de controle, funções e boas práticas de codificação. Prepara os alunos para disciplinas avançadas e projetos práticos, estimulando raciocínio lógico e criatividade.</p>
 
-      <h3>📘 Disciplina Favorita</h3>
-      <p><b>Programação Estruturada</b> — É uma matéria inicial essencial para a base lógica e o desenvolvimento na área de programação. Ensina os fundamentos de algoritmos, estruturas de controle e funções, desenvolvendo o raciocínio lógico e a capacidade de resolver problemas de forma organizada. Também introduz boas práticas de codificação, preparando o aluno para disciplinas mais avançadas e projetos práticos, além de estimular o pensamento crítico e a criatividade na construção de soluções computacionais.</p>
+    <h3 class="dici">Metodologias e Recursos</h3>
+    <ul>
+      <li><b>Recursos:</b> Notebook e projetor para apresentação de códigos e exemplos em tempo real.</li>
+      <li><b>Abordagem:</b> Aulas práticas com resolução de problemas no ambiente de programação.</li>
+      <li><b>Estilo de ensino:</b> Ênfase na experimentação, participação dos alunos e aplicação imediata dos conceitos.</li>
+    </ul>
 
-      <h3>🧠 Metodologias e Recursos Utilizados</h3>
-      <ul>
-        <li><b>Recursos:</b> Notebook e Projetor, utilizados para apresentar códigos e exemplos em tempo real.</li>
-        <li><b>Abordagem:</b> Aulas voltadas para a prática e para a resolução de problemas diretamente no ambiente de programação.</li>
-        <li><b>Estilo de ensino:</b> Ênfase na experimentação, na participação dos alunos e na aplicação imediata dos conceitos estudados.</li>
-      </ul>
+    <h3 class="dici">Mensagem aos Alunos</h3>
+    <p>“Estuda, menino, que o estudo é teu tesouro. Não será ele uma alavanca de ouro?”</p>
+    </div>
 
-      <h3>💬 Mensagem aos Alunos</h3>
-      <p>
-        “Estuda, menino, que o estudo é teu tesouro.  
-        Não será ele uma alavanca de ouro?”
-      </p>
+  </article>
+</section>
+  <img id="imgNuvem2" src="../img/01.png" alt="Nuvem" width="230">
 
   <footer>
     <p>© 2025 - Projeto Landing Page | IFCE Campus Maranguape</p>
   </footer>
-
-</body>
-
+  </body>
+</html>
