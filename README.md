@@ -8,7 +8,7 @@ O site apresenta informações sobre um servidor escolhido pela dupla, incluindo
 ---
  | Projeto|Link do Projeto |
  | ------------- | ---------------------------------------------------------------------------------------------------------------- |
- |Landing Page                |[Projeto](https://HerbsterDev.github.io/Landing-Page-WEB1-HTML/)
+ |Landing Page                |[Projeto](https://herbsterdev.github.io/Landing-Page-WEB1-HTML/)
 ## 🧩 Estrutura do Projeto
 
 ```
@@ -100,5 +100,6 @@ Projeto desenvolvido por:
 Curso: Técnico em Informática — IFCE Campus Maranguape  
 Disciplina: Desenvolvimento Web I  
 Professor: **Thomaz Maia De Almeida**
+
 
 
